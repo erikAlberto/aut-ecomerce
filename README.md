@@ -72,3 +72,7 @@ playwright.config.ts             # URL base, navegadores, locale, reintentos y r
 
 - Reutilizar el estado de sesión en pruebas autenticadas y separar los comandos
   frecuentes mediante scripts npm.
+
+# Link del video DEMO:
+
+- https://drive.google.com/file/d/1MnE92iBBNn_9UILKznxAYi7dvjOgDTsK/view?usp=sharing
