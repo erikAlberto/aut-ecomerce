@@ -1,0 +1,6 @@
+{
+  "products": [
+    { "name": "Hammer", "price": 12.58 },
+    { "name": "Combination Pliers", "price": 14.15 }
+  ]
+}
