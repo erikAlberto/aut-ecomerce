@@ -16,7 +16,9 @@ export class LoginPage {
   }
 
   async goto(): Promise<void> {
-    await this.page.goto('/auth/login', { waitUntil: 'domcontentloaded' });
+    await this.page.goto('/', { waitUntil: 'domcontentloaded' });
+    await this.page.getByTestId('nav-sign-in').click();
+    await this.emailInput.waitFor({ state: 'visible' });
   }
 
   async login(email: string, password: string): Promise<void> {
